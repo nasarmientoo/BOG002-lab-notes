@@ -8,9 +8,17 @@
 
 .logo {
     position: absolute;
-    width: 250px;
-    height: 250px;
-    left: -40px;
-    top: -77px;
-    /* clip: rect(5px, 5px, 5px, 5px); */
+    width: 350px;
+    height: auto;
+    /* clip: rect(50px, 50px, 50px, 50px); */
+}
+
+.options {
+    position: absolute;
+}
+
+a[id^="button"] {
+    text-decoration: none;
+    background-color: #303533;
+    color: rgba(255, 255, 255, 0.7);
 }

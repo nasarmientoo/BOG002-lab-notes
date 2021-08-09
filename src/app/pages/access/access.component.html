@@ -1,7 +1,9 @@
 <div class="container">
     <img src="assets\images\coowner-logo.png" class="logo">
     <div class="options">
-        <button id="access-login"></button>
-        <button id="access-register"></button>
+        <pre>
+            <a id="button-login" [routerLink]='["/login"]' role="button">Login</a>
+            <a id="button-register" [routerLink]="['/register']" role="button">Register</a>
+        </pre>
     </div>
 </div>
