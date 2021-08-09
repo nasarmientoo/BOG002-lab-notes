@@ -1,0 +1,16 @@
+.container {
+    background-image: url(src/assets/images/coowner-background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: -40px;
+    top: -77px;
+    /* clip: rect(5px, 5px, 5px, 5px); */
+}

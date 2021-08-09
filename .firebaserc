@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "co-owner-2021": {
+      "hosting": {
+        "co-owner": [
+          "co-owner-2021"
+        ]
+      }
+    }
+  }
+}

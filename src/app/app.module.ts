@@ -4,23 +4,29 @@ import { AppRoutingModule } from './app-routing.module';
 import { AngularFireModule } from '@angular/fire';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-import { HeaderComponent } from './components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
-import { HomeComponent } from './pages/home/home.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    HomeComponent
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     MaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AngularFireModule.initializeApp({
+      apiKey: "AIzaSyDwrwIiWFWPimnHIAkmSGHp6F9butSGYSQ",
+      authDomain: "co-owner-2021.firebaseapp.com",
+      projectId: "co-owner-2021",
+      storageBucket: "co-owner-2021.appspot.com",
+      messagingSenderId: "576605578367",
+      appId: "1:576605578367:web:c0e164afb8bd88e7584b4a"
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
